@@ -23,6 +23,10 @@ class Solution {
     ///  -109 <= nums[i] <= 109
 
     /// NeetCode explanation: https://www.youtube.com/watch?v=P6RZZMu_maU
+     
+    /// Keypoint:
+    /// Why the input array is converted to set ? 
+    /// To read elements faster.
     
     func longestConsecutive(_ nums: [Int]) -> Int {
 
